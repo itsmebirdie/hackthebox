@@ -1,5 +1,5 @@
 ---
-title: Nibbles HTB Writeup
+Title: Nibbles HTB Writeup
 author: 0xGamer
 date: 2021-01-25 9:16:00 
 categories: [Walkthru, Writeup, Hackthebox]
