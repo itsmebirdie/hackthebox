@@ -6,7 +6,6 @@ categories: [Walkthru, Writeup, Hackthebox]
 tags: [Nibble]
 math: true
 mermaid: true
-image: https://cdn.jsdelivr.net/h/cotes2020/chirpy-images/commons/devices-mockup.png
 ---
 
 This post contains the walkthru of the Nibbles box from hackthebox. This box has been suggested as OSCP like.
@@ -38,15 +37,15 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
  #### Lets visit the webpage.
 
-![image-20210125095401157](C:\Users\Rishiraj Behki\AppData\Roaming\Typora\typora-user-images\nibbles1.png)
+![image-20210125095401157](https://raw.githubusercontent.com/hackarmour/hackthebox/main/assets/nibbles1.png)
 
 #### We see a page with only Hello world! written on it... Lets check the source code
 
-#### ![image-20210125095509153](C:\Users\Rishiraj Behki\AppData\Roaming\Typora\typora-user-images\nibbles2.png)
+#### ![image-20210125095509153](https://raw.githubusercontent.com/hackarmour/hackthebox/main/assets/nibbles2.png)
 
 ### We see a /nibbleblog... Lets visit it 
 
-![image-20210125095624746](C:\Users\Rishiraj Behki\AppData\Roaming\Typora\typora-user-images\nibbles3.png)
+![image-20210125095624746](https://raw.githubusercontent.com/hackarmour/hackthebox/main/assets/nibbles3.png)
 
 ### I checked the stuff but nothing interesting here on those categories and pages. Lets run  gobuster against it.
 
@@ -83,13 +82,13 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
 
 #### Hmm, admin.php is interesting...
 
-![image-20210125100619910](C:\Users\Rishiraj Behki\AppData\Roaming\Typora\typora-user-images\nibbles4.png)
+![image-20210125100619910](https://raw.githubusercontent.com/hackarmour/hackthebox/main/assets/nibbles4.png)
 
 #### Lets try the common usernames and passwords like, admin:admin or nibbles:nibbles or admin:nibbles or nibbles:admin	
 
 #### We see that the username admin and the password nibbles work...
 
-![image-20210125102016119](C:\Users\Rishiraj Behki\AppData\Roaming\Typora\typora-user-images\nibbles5.png)
+![image-20210125102016119](https://raw.githubusercontent.com/hackarmour/hackthebox/main/assets/nibbles5.png)
 
 #### We get logged in but there is nothing interesting here
 
@@ -147,7 +146,7 @@ msf6 exploit(multi/http/nibbleblog_file_upload) > run
 
 ### Now you can see that we got shell as nibbler
 
-![image-20210125103315915](C:\Users\Rishiraj Behki\AppData\Roaming\Typora\typora-user-images\nibbles6.png)
+![image-20210125103315915](https://raw.githubusercontent.com/hackarmour/hackthebox/main/assets/nibbles6.png)
 
 #### Now lets use this command to spawn a bash shell
 
