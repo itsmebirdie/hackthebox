@@ -3,5 +3,5 @@
 ## [HackTheBox NEW UI](https://app.hackthebox.eu)
 ## [HackTheBox ACADEMY](https://academy.hackthebox.eu)
 
-##Detailed Hackthebox boxes and challenges explanation. 
+## Detailed Hackthebox boxes and challenges explanation. 
 
