@@ -3,9 +3,6 @@ title: Nibbles HTB Writeup
 author: 0xGamer
 date: 2021-01-25 9:16:00 
 categories: [Walkthru, Writeup, Hackthebox]
-tags: [Nibble]
-math: true
-mermaid: true
 ---
 
 This post contains the walkthru of the Nibbles box from hackthebox. This box has been suggested as OSCP like.
